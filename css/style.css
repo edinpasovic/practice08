@@ -103,6 +103,7 @@ header h2 {
     position: relative;
     top: -18px;
     z-index: -1;
+    animation: slidein 0.3s;
 }
 
 .square {
@@ -206,4 +207,16 @@ header h2 {
     margin: 30px auto 0;
     display: flex;
     flex-direction: column;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
