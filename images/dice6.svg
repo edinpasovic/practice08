@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-550,-96)">
+        <g id="dice6" transform="matrix(0.849339,0,0,0.982493,550.256,96.6112)">
+            <rect x="0" y="0" width="117.739" height="101.782" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="117.739" height="101.782"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.12958,0,0,0.866964,-100.224,-198.905)">
+                    <path d="M192.96,241.19C192.96,234.698 188.28,229.427 182.516,229.427L99.171,229.427C93.407,229.427 88.727,234.698 88.727,241.19L88.727,335.064C88.727,341.556 93.407,346.827 99.171,346.827L182.516,346.827C188.28,346.827 192.96,341.556 192.96,335.064L192.96,241.19Z" style="fill:url(#_Linear2);"/>
+                </g>
+                <g transform="matrix(0.710653,0,0,0.614341,-181.467,-230.594)">
+                    <circle cx="288.436" cy="458.189" r="16.568" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.710653,0,0,0.614341,-110.805,-230.594)">
+                    <circle cx="288.436" cy="458.189" r="16.568" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.710653,0,0,0.614341,-110.805,-261.144)">
+                    <circle cx="288.436" cy="458.189" r="16.568" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.710653,0,0,0.614341,-110.805,-200.059)">
+                    <circle cx="288.436" cy="458.189" r="16.568" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.710653,0,0,0.614341,-181.467,-200.059)">
+                    <circle cx="288.436" cy="458.189" r="16.568" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.710653,0,0,0.614341,-181.467,-261.128)">
+                    <circle cx="288.436" cy="458.189" r="16.568" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(104.233,0,0,117.4,88.7269,288.127)"><stop offset="0" style="stop-color:rgb(113,124,235);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(88,171,236);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

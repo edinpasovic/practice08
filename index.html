@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Scrimba Dice Game</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/diceImage1.svg" alt="a dice with number 5 on front" class="headerimage">
+            <h2>
+                Dice Game
+            </h2>
+            <img src="./images/diceImage2.svg" alt="a dice with number 6 on front" class="headerimage">
+        </header>
+        <div class="players">
+            <div class="player-box active-name" id="p1">
+                <p>Player 1</p>
+            </div>
+            <div class="player-box" id="p2">
+                <p>Player 2</p>
+            </div>
+        </div>
+        <div class="scores">
+            <div class="score-box square">
+                <p>score</p>
+                <h1 id="p1-points">0</h1>
+            </div>
+            <div class="roll-btn square" id="roll-btn">
+                <p class="btn-text">roll<br>dice</p>
+                <img src="./images/smallDices.svg" alt="small dices being rolled" class="btn-image">
+            </div>
+            <div class="score-box square">
+                <p>score</p>
+                <h1 id="p2-points">0</h1>
+            </div>
+        </div>
+        <div class="dices">
+            <div class="square active-dice" id="dice1-container">
+                <img src="./images/dice0.svg" alt="dice with scrimba logo" id="p1-dice">
+            </div>
+            <div class="square" id="dice2-container">
+                <img src="./images/dice0.svg" alt="dice with scrimba logo" id="p2-dice">
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <h2>Player <span id="winner">1</span> is the</h2>
+        <h1>winner winner</h1>
+        <img src="./images/chickenDinner.svg" alt="chicken dinner in a plate" class="winner-image">
+        <h1>chicken dinner!</h1>
+        <div class="reset-btn square" id="reset-btn">
+            <p class="btn-text">Play<br>again?</p>
+            <img src="./images/playAgain.svg" alt="replay sign" class="btn-image">
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
